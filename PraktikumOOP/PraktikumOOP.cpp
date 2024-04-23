@@ -16,7 +16,7 @@ public: // akses modifer
 
 class Matakuliah {
 	private:
-		string kodeM;
+		string kodeMk;
 		string namaMk;
 		int sks;
 	public :
@@ -27,6 +27,13 @@ class Matakuliah {
 			cin >> namaMk;
 			cout << "SKS: ";
 			cin >> sks;
+		}
+
+		void output() {
+			cout << "Kode MK: " << kodeMk << endl;
+			cout << "Nama MK: " << namaMk << endl;
+			cout << "SKS: " << sks << endl;
+
 		}
 
 };
