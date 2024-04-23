@@ -2,7 +2,7 @@
 using namespace std;
 
 class Mahasiswa{
-public: //akses modifer
+public://akses modifer
 	string nama;
 	int umur;
 	string jurusan;
@@ -14,6 +14,7 @@ public: //akses modifer
 	}
 };
 
+
 class Matakuliah {
 	private:
 		string kodeMk;
@@ -23,7 +24,7 @@ class Matakuliah {
 		void input() {
 			cout << "Kode Mk: ";
 			cin >> kodeMk;
-			cout << "Nama Mk: ";
+			cout << "Nama MK: ";
 			cin >> namaMk;
 			cout << "SKS: ";
 			cin >> sks;
@@ -33,9 +34,7 @@ class Matakuliah {
 			cout << "Kode MK: " << kodeMk << endl;
 			cout << "Nama MK: " << namaMk << endl;
 			cout << "SKS: " << sks << endl;
-
 		}
-
 };
 
 int main () {
