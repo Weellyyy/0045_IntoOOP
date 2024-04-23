@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class Mahasiswa {
+class Mahasiswa{
 public: //akses modifer
 	string nama;
 	int umur;
 	string jurusan;
 
-	void input() {
+	void output() {
 		cout << "Nama: " << nama << endl;
 		cout << "Umur: " << umur << endl;
 		cout << "Jurusan: " << jurusan << endl;
@@ -38,7 +38,7 @@ class Matakuliah {
 
 };
 
-int main() {
+int main () {
 	Mahasiswa mhs;
 	Matakuliah mk;
 
@@ -46,6 +46,7 @@ int main() {
 	mhs.umur = 20;
 	mhs.jurusan = "Teknik Informatika";
 	mhs.output();
+
 	mk.input();
 	mk.output();
 
